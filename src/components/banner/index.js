@@ -1,4 +1,5 @@
-import { Button, Typography, useMediaQuery } from "@mui/material";
+import { Typography, useMediaQuery } from "@mui/material";
+//import { Button, Typography, useMediaQuery } from "@mui/material";
 import { useTheme } from "@mui/system";
 import {
   BannerContainer,
@@ -11,6 +12,7 @@ import {
 
 export default function Banner() {
   const theme = useTheme();
+  // eslint-disable-next-line no-unused-vars
   const matches = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
