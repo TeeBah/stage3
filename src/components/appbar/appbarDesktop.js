@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {
   Box,
   Divider,
@@ -29,11 +30,11 @@ export default function AppbarDesktop({ matches }) {
     <AppbarContainer>
       <AppbarHeader variant="h4">Stage 3 Boutique</AppbarHeader>
       <MyList type="row">
-        <ListItemText primary="Home" />
-        <ListItemText primary="Categories" />
-        <ListItemText primary="Products" />
-        <ListItemText primary="About us" />
-        <ListItemText primary="Contact us" />
+        <ListItemText primary="HOME" />
+        <ListItemText primary="CATEGORIES" />
+        <ListItemText primary="PRODUCTS" />
+        {/* <ListItemText primary="About us" />
+        <ListItemText primary="Contact us" /> */}
         <ListItemButton onClick={() => setShowSearchBox(true)}>
           <ListItemIcon>
             <SearchIcon />
