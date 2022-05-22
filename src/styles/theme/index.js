@@ -24,7 +24,7 @@ export const Colors = {
   dove_gray: "#d5d5d5",
   body_bg: "#f3f6f9",
   light_gray: "rgb(230,230,230)",
-  light_gray1: "#000000",
+  light_gray1: "000000",
   ///////////////
   // Solid Color
   ///////////////

@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { Box, Button, Container, Grid } from "@mui/material";
 import { products } from "../../data";
 import SingleProduct from "./SingleProduct";
